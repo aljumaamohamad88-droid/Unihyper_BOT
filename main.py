@@ -499,19 +499,19 @@ reg("historybsuirf", hist_bsuir_fr, lambda: make_keyboard(add_back=True))
 # =============== GSTU ===============
 def gstu_ar(): return make_keyboard(
     [("نبذة عن الجامعة", "historygstua")],
-    [("التخصصات و الرسوم الجامعية", "https://drive.google.com/file/d/1HSA0-QyLeVGMe2lFIwC4KJ1bnMvtu09Z/view")],
+    [("التخصصات و الرسوم الجامعية", "https://drive.google.com/file/d/1MG8G1IZ2cVOdjbS0kHWh2-vXBlkNddz8/view?usp=drive_link")],
     add_back=True)
 def gstu_en(): return make_keyboard(
     [("About the University", "historygstue")],
-    [("Majors and annual fees", "https://drive.google.com/file/d/14D0ePU6rL4NVbzUWNeyaRPi5wgkhyGs6/view")],
+    [("Majors and annual fees", "https://drive.google.com/file/d/1KKAiRGlGBMrumhBpnDdnsEyIeuhCwBdm/view?usp=drive_link")],
     add_back=True)
 def gstu_ru(): return make_keyboard(
     [("Об университете", "historygstur")],
-    [("Специальности и стоимость обучения", "https://drive.google.com/file/d/1UfzOB_vLoeND2BB3JgHXVd9y6mDQA_ys/view")],
+    [("Специальности и стоимость обучения", "https://drive.google.com/file/d/1aJ10G6raFDzxZwkG3a9p-Rt55fwbQqq3/view?usp=drive_link")],
     add_back=True)
 def gstu_fr(): return make_keyboard(
     [("À propos de l'université", "historygstuf")],
-    [("Spécialisations et frais annuels", "https://drive.google.com/file/d/1A7MnxVewDiWlnb3yxa_v4L_fKvuyIADB/view")],
+    [("Spécialisations et frais annuels", "https://drive.google.com/file/d/1SFYEzaK3vM1O8b720WnCfrh5gAtrITSU/view?usp=drive_link")],
     add_back=True)
 reg("gstua", "جامعة غومل الحكومية للتقنيات سوخوي", gstu_ar)
 reg("gstue", "Sukhoi Gomel State Technical University", gstu_en)
